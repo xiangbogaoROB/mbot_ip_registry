@@ -5,7 +5,7 @@ import argparse
 import datetime
 
 LOG_FILE = "/var/log/mbot/mbot_pub_info.log"
-IP_DIR = "/var/tmp/mbot-ip/data"
+IP_DIR = "/var/tmp/mbot_ip_registry/data"
 
 
 def update_ip_file(hostname, ipaddr, cur_time, log_file=LOG_FILE):
